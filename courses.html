@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CDIAC - Courses</title>
+        
+        <!-- font-awesome -->
+        <script src="https://kit.fontawesome.com/c542dfd2c8.js" crossorigin="anonymous"></script>
+    
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="js/jquery-1.7.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+    
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/media-query.css">
+    </head>
+<body>
+    <section class="navigation">
+
+        <!-- <div class="top-banner row">
+            <div class="col-lg-4 col-sm-4"><a href="tel:+9197275 56108"><i class="fa-solid fa-phone banner-fa-logo"></i>+919727556108</a></div>
+            <div class="col-lg-4 col-sm-4"><a href="mailto:info@cdiacsurat.com"><i class="fa-solid fa-envelope banner-fa-logo"></i>E-mail</a></div>
+            <div class="col-lg-4 col-sm-4"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfBV_8832WwUIKwvWlPAE5VCfiNM1TzZPqD_2AzCxxDv1BfYw/viewform"><i class="fa-solid fa-registered banner-fa-logo"></i>Register</a></div>
+        </div> -->
+
+        <nav class="navbar navbar-expand-lg navigate">
+            <!-- <a href=""><img src="images/logoa.png" alt=""></a> -->
+            <a href="index.html"><img  class="brand-logo" src="images/CDIAC logo.svg" alt="Company Logo"></a>
+            <a href="index.html" class="navbar-brand">Center for Development in Automation and Control</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">   
+                    <i class="fas fa-bars" style="font-size:28px;"></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link nav-link-main">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about-us.html" class="nav-link nav-link-main">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                       <a href="courses.html" class="nav-link dropdown-toggle nav-link-main active-page" href="#" role="button" id="dropdownMenu1" data-bs-toggle="dropdown">Courses</a>
+                       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="plc.html" class="dropdown-item nav-link-dropdown">PLC Programming & Interfacing</a></li>
+                        <li><a href="microcontroller.html" class="dropdown-item nav-link-dropdown">Microcontroller</a></li>
+                        <li><a href="device-drivers.html" class="dropdown-item nav-link-dropdown">Device Drivers</a></li>
+                        <li><a href="operating-system.html" class="dropdown-item nav-link-dropdown">Operating System/RTOS</a></li>
+                        <li><a href="pcb.html" class="dropdown-item nav-link-dropdown">PCB Design Workshop</a></li>
+                        <li><a href="full-stack-development.html" class="dropdown-item nav-link-dropdown">Full Stack Web Development</a></li>
+                        <li><a href="flutter-development.html" class="dropdown-item nav-link-dropdown">Flutter Development</a></li>
+                        <li><a href="net-development.html" class="dropdown-item nav-link-dropdown">.NET Development</a></li>
+                       </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#top-products" class="nav-link nav-link-main">Equipments</a>
+                      </li>
+                       <!-- <li class="nav-item dropdown">
+                          <a href="equipments.html" class="nav-link dropdown-toggle nav-link-main" href="#" role="button" id="dropdownMenu4" data-bs-toggle="dropdown">Equipments</a>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                           <li><a href="" class="dropdown-item nav-link-dropdown">8051 Trainer Kit</a></li>
+                           <li><a href="" class="dropdown-item nav-link-dropdown">AVR(ATMEGA32) Trainer Kit</a></li>
+                           <li><a href="" class="dropdown-item nav-link-dropdown">Arduino Trainer Kit</a></li>
+                           <li><a href="" class="dropdown-item nav-link-dropdown">NodeMCU Trainer Kit</a></li>
+                           <li><a href="" class="dropdown-item nav-link-dropdown">PIC Trainer Kit</a></li>
+                           <li><a href="" class="dropdown-item nav-link-dropdown">ARM7 Trainer Kit</a></li>
+                           <li><a href="" class="dropdown-item nav-link-dropdown">PLC Trainer Kit</a></li>
+                           <li><a href="" class="dropdown-item nav-link-dropdown">DCS Trainer Kit</a></li>
+                           <li><a href="" class="dropdown-item nav-link-dropdown">Raspberry Pi Trainer Kit</a></li>
+                           <li><a href="" class="dropdown-item nav-link-dropdown">MSP430 Trainer Kit</a></li>
+                          </ul>
+                       </li> -->
+                       <!-- <li class="nav-item">
+                          <a href="placements.html" class="nav-link nav-link-main">Placements</a>
+                      </li> -->
+                      <li class="nav-item">
+                          <a href="contact.html" class="nav-link nav-link-main">Contact</a>
+                      </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <section id="courses">
+        <img id="courses-showcase" src="images/emb-banner6.png" alt="">
+        <div class="showcase-text">
+            <h1 class="showcase-heading">Courses</h1>
+            <p class="showcase-innertext">Making students industry-ready with application-oriented training programs!</p>
+        </div>
+    </section>
+
+    <section id="Overview">
+        <div class="overview-heading">
+            <h1 class="section-heading">Overview</h1>
+        </div>
+        <!-- <div class="row">
+            <div class="col-lg-4 course-row">
+                <img class="code-img" src="images/responsive.png" alt="Computer">
+                <h3>Design & Development</h3>
+                <p class="event-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="col-lg-4 course-row">
+                <img class="code-img" src="images/responsive.png" alt="Computer">
+                <h3>Design & Development</h3>
+                <p class="event-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="col-lg-4 course-row">
+                <img class="code-img" src="images/responsive.png" alt="Computer">
+                <h3>Design & Development</h3>
+                <p class="event-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div> -->
+        <div class="course-row">
+            <img class="course-img-left" src="images/section/microchip (2).png" alt="embedded2">
+            <h3>PLC Programming and Interfacing</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <a href="plc.html"><button class="btn btn-dark btn-md white-sign-up-btn">Learn More</button></a>
+        </div>
+        <div class="course-row">
+            <img class="course-img-right" src="images/section/microchip (1).png" alt="microcontroller">
+            <h3>Microcontroller</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <a href="microcontroller.html"><button class="btn btn-dark btn-md white-sign-up-btn">Learn More</button></a>
+        </div>
+        <div class="course-row">
+            <img class="course-img-left" src="images/section/driver.png" alt="driver">
+            <h3>Device Drivers</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <a href="device-drivers.html"><button class="btn btn-dark btn-md white-sign-up-btn">Learn More</button></a>
+        </div>
+        <div class="course-row">
+            <img class="course-img-right" src="images/section/operational-system.png" alt="operational-system">
+            <h3>Operating System</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <a href="operating-system.html"><button class="btn btn-dark btn-md white-sign-up-btn">Learn More</button></a>
+        </div>
+        <div class="course-row">
+            <img class="course-img-left" src="images/section/online-order.png" alt="application">
+            <h3>Flutter Development</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <a href="flutter-development.html"><button class="btn btn-dark btn-md white-sign-up-btn">Learn More</button></a>
+        </div>
+        <div class="course-row">
+            <img class="course-img-right" src="images/section/pcb-board.png" alt="pcb">
+            <h3>PCB Design</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <a href="pcb.html"><button class="btn btn-dark btn-md white-sign-up-btn">Learn More</button></a>
+        </div>
+        <div class="course-row">
+            <img class="course-img-left" src="images/section/full-stack.png" alt="full stack">
+            <h3>Full Stack Web Development</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <a href="full-stack-development.html"><button class="btn btn-dark btn-md white-sign-up-btn">Learn More</button></a>
+        </div>
+        <div class="course-row">
+            <img class="course-img-right" src="images/section/website.png" alt=".NET">
+            <h3>.NET Development</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <a href="net-development.html"><button class="btn btn-dark btn-md white-sign-up-btn">Learn More</button></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="white-section" id="footer">
+        <a href="https://www.facebook.com/cdiacssasit/"><i class="icon fa-brands fa-facebook-f"></i></a>
+        <a href="tel:097275 56108"><i class="icon fa-solid fa-phone"></i></a>
+        <!-- <i class="icon fa-brands fa-instagram"></i> -->
+        <a href="mailto:cdiacsurat@gmail.com"><i class="icon fa-solid fa-envelope"></i></a>
+        <p>© Copyrights 2023 by CDIAC. Website Developed by Deep Mangroliya</p>
+    </footer>
+  
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

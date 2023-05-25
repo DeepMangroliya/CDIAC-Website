@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDIAC</title>
+    
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/c542dfd2c8.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media-query.css">
+</head>
+<body>
+    <section class="navigation">
+      <div class="row">
+
+       
+        <!-- <div class="top-banner row">
+            <div class="col-lg-4 col-sm-4"><a href="tel:+9197275 56108"><i class="fa-solid fa-phone banner-fa-logo"></i>+919727556108</a></div>
+            <div class="col-lg-4 col-sm-4"><a href="mailto:info@cdiacsurat.com"><i class="fa-solid fa-envelope banner-fa-logo"></i>E-mail</a></div>
+            <div class="col-lg-4 col-sm-4"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfBV_8832WwUIKwvWlPAE5VCfiNM1TzZPqD_2AzCxxDv1BfYw/viewform"><i class="fa-solid fa-registered banner-fa-logo"></i>Register</a></div>
+        </div> -->
+
+        <nav class="navbar navbar-expand-lg navigate">
+            <!-- <a href=""><img src="images/logoa.png" alt=""></a> -->
+            <a href="index.html"><img  class="brand-logo" src="images/CDIAC logo.svg" alt="Company Logo"></a>
+            <a href="index.html" class="navbar-brand">Center for Development in Automation and Control</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">   
+                    <i class="fas fa-bars" style="font-size:28px;"></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link nav-link-main active-page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about-us.html" class="nav-link nav-link-main">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                       <a href="courses.html" class="nav-link dropdown-toggle nav-link-main" href="#" role="button" id="dropdownMenu1" data-bs-toggle="dropdown">Courses</a>
+                       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="plc.html" class="dropdown-item nav-link-dropdown">PLC Programming & Interfacing</a></li>
+                        <li><a href="microcontroller.html" class="dropdown-item nav-link-dropdown">Microcontroller</a></li>
+                        <li><a href="device-drivers.html" class="dropdown-item nav-link-dropdown">Device Drivers</a></li>
+                        <li><a href="operating-system.html" class="dropdown-item nav-link-dropdown">Operating System/RTOS</a></li>
+                        <li><a href="pcb.html" class="dropdown-item nav-link-dropdown">PCB Design Workshop</a></li>
+                        <li><a href="full-stack-development.html" class="dropdown-item nav-link-dropdown">Full Stack Web Development</a></li>
+                        <li><a href="flutter-development.html" class="dropdown-item nav-link-dropdown">Flutter Development</a></li>
+                        <li><a href="net-development.html" class="dropdown-item nav-link-dropdown">.NET Development</a></li>
+                       </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#top-products" class="nav-link nav-link-main">Equipments</a>
+                    </li>
+                     <!-- <li class="nav-item dropdown">
+                        <a href="equipments.html" class="nav-link dropdown-toggle nav-link-main" href="#" role="button" id="dropdownMenu4" data-bs-toggle="dropdown">Equipments</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                         <li><a href="" class="dropdown-item nav-link-dropdown">8051 Trainer Kit</a></li>
+                         <li><a href="" class="dropdown-item nav-link-dropdown">AVR(ATMEGA32) Trainer Kit</a></li>
+                         <li><a href="" class="dropdown-item nav-link-dropdown">Arduino Trainer Kit</a></li>
+                         <li><a href="" class="dropdown-item nav-link-dropdown">NodeMCU Trainer Kit</a></li>
+                         <li><a href="" class="dropdown-item nav-link-dropdown">PIC Trainer Kit</a></li>
+                         <li><a href="" class="dropdown-item nav-link-dropdown">ARM7 Trainer Kit</a></li>
+                         <li><a href="" class="dropdown-item nav-link-dropdown">PLC Trainer Kit</a></li>
+                         <li><a href="" class="dropdown-item nav-link-dropdown">DCS Trainer Kit</a></li>
+                         <li><a href="" class="dropdown-item nav-link-dropdown">Raspberry Pi Trainer Kit</a></li>
+                         <li><a href="" class="dropdown-item nav-link-dropdown">MSP430 Trainer Kit</a></li>
+                        </ul>
+                     </li> -->
+                     <!-- <li class="nav-item">
+                        <a href="placements.html" class="nav-link nav-link-main">Placements</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link nav-link-main">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+      </div>
+    </section>
+
+
+    <!-- <hr class="showcase-border"> -->
+    
+    <!-- <section id="showcase">
+
+        <div id="showcase-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-inner showcase-carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/2.2-edit.JPG" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/5-edit.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/1-2-edit.JPG" alt="Third slide">
+              </div>
+            </div>
+          </div>
+
+    </section> -->
+
+    <section id="showcase" class="banner-carousel">
+
+      <div id="showcase-carousel" class="carousel slide banner-slider" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner showcase-carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block" width="100%" height="700px" src="images/2.2-edit.JPG" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block" width="100%" height="700px" src="images/5-edit.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block" width="100%" height="700px" src="images/1-2-edit.JPG" alt="Third slide">
+          </div>
+          <!-- <div class="carousel-item">
+                  <img class="d-block w-100" src="images/pmkvy.jpeg" alt="Fourth slide">
+                </div> -->
+        </div>
+      </div>
+
+    <!-- <hr class="showcase-border"> -->
+
+    <section id="register container-fluid">
+        <img class="apply-img" src="images/Apply.jpeg" alt="Apply Image">
+        <h1 class="apply-text">Click Here to Grow Your Career Exponentially</h1>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBV_8832WwUIKwvWlPAE5VCfiNM1TzZPqD_2AzCxxDv1BfYw/viewform"><button class="btn btn-primary btn-lg btn-curve apply-btn mt-30">Apply Now</button></a>
+    </section>
+
+    <section id="events">
+        <div class="event-heading">
+          <div class="container">
+            <div class="row">
+              <h1 class="section-heading">EVENTS</h1>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 event-box">
+                  <i class="icon fa-sharp fa-solid fa-gear fa-4x"></i>
+                  <h3>Workshops</h3>
+                  <p class="event-text">Technical workshops are structured to ensure that both short-term, and long term objectives can be achieved, and to provide guidance on updating solutions to meet evolving business needs.</p>
+              </div>
+              <div class="col-lg-4 event-box">
+                  <i class="icon fa-solid fa-graduation-cap fa-4x"></i>
+                  <h3>Summer/Winter Training</h3>
+                  <p class="event-text">Training is teaching, or developing in oneself or others, any skills and knowledge or fitness that relate to specific useful competencies. Training has goals of improving one's capacity, productivity and performance.</p>
+              </div>
+              <div class="col-lg-4 event-box">
+                  <i class="icon fa-solid fa-calendar-days fa-4x"></i>
+                  <h3>Seminars</h3>
+                  <p class="event-text">These meetings are interactive experiences led by one or two presenters whose role focuses on guiding the conversation along a delineated path.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="top-courses">
+        
+      <h2 class="section-heading">Most Loved Courses</h2>
+      <p class="colored-one-liner">Simply Explained Advance Courses, Just a Click Away!</p>
+
+      <div class="row">
+  
+          <div class="course-column col-12 col-md-6 col-xl-4">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="course-title">PCB Design</h3>
+                <!-- <h2 class="course-text">Free</h2> -->
+              </div>
+              <img class="card-img-top" src="images/section/pcb1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Printed circuit board (PCB) design brings your electronic circuits to life in the physical form. Using PCB layout software, the PCB board design process combines component placement and routeing to define electrical connectivity on a manufactured circuit board.</p>
+                <a href="pcb.html"><button class="btn btn-lg btn-block btn-dark color-sign-up-btn" type="button">Sign Up</button></a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="course-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="course-title">Opeating System</h3>
+                <!-- <h2 class="course-text">$49 / mo</h2> -->
+              </div>
+              <img class="card-img-top" src="images/section/os-main.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">An embedded system is a computer system—a combination of a computer processor, computer memory, and input/output peripheral devices—that has a dedicated function within a larger mechanical or electronic system. It is embedded as a complete device including electrical.</p>
+                <a href="operating-system.html"><button class="btn btn-lg btn-block btn-dark color-sign-up-btn" type="button">Sign Up</button></a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="course-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="course-title">Microcontroller</h3>
+                <!-- <h2 class="course-text">$99 / mo</h2> -->
+              </div>
+              <img class="card-img-top" src="images/section/plc.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">A microcontroller (MCU for microcontroller unit, also MC, UC, or μC) is a small computer on a single VLSI integrated circuit (IC) chip. A microcontroller contains one or more CPUs (processor cores) along with memory and programmable input/output peripherals.</p>
+                <a href="microcontroller.html"><button class="btn btn-lg btn-block btn-dark color-sign-up-btn" type="button">Sign Up</button></a>
+              </div>
+            </div>
+          </div>
+
+          <a class="view-more" href="courses.html">View More</a>
+
+          <!-- <div class="course-column col-lg-4 col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="course-title">Internet Of Things</h3>
+                  <h2 class="course-text">$49 / mo</h2>
+                </div>
+                <img class="card-img-top" src="images/section/iot5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p>..</p>
+                <p>..</p>
+                <p>..</p>
+                  <button class="btn btn-lg btn-block btn-dark color-sign-up-btn" type="button">Sign Up</button>
+                </div>
+              </div>
+          </div>
+
+          <div class="course-column col-lg-4 col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="course-title">Full Stack Development</h3>
+                  <h2 class="course-text">$49 / mo</h2>
+                </div>
+                <img class="card-img-top" src="images/section/full stack web developer5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p>..</p>
+                  <p>..</p>
+                  <p>..</p>
+                  <button class="btn btn-lg btn-block btn-dark color-sign-up-btn" type="button">Sign Up</button>
+                </div>
+              </div>
+          </div>
+
+          <div class="course-column col-lg-4">
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="course-title">Mobile Applications</h3>
+                  <h2 class="course-text">$99 / mo</h2>
+                </div>
+                <img class="card-img-top" src="images/section/Flutter1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p>..</p>
+                  <p>..</p>
+                  <p>..</p>
+                  <button class="btn btn-lg btn-block btn-dark color-sign-up-btn" type="button">Sign Up</button>
+      
+                </div>
+              </div>
+          </div> -->
+
+  </section>
+
+
+  <section class="white-section" id="top-products">
+      
+      <h2 class="section-heading">OUR EQUIPMENTS</h2>
+      <p>Get the Infrastructure with all the latest Industrial Requipments for Automation Field.</p>
+
+      <!-- <div class="row">
+  
+          <div class="product-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>Chihuahua</h3>
+                <h2 class="product-text">Free</h2>
+              </div>
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <p>..</p>
+                <p>..</p>
+                <p>..</p>
+                <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+              </div>
+            </div>
+          </div>
+    
+          <div class="product-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>Labrador</h3>
+                <h2 class="product-text">$49 / mo</h2>
+              </div>
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <p>..</p>
+                <p>..</p>
+                <p>..</p>
+                <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+              </div>
+            </div>
+          </div>
+    
+          <div class="product-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3>Mastiff</h3>
+                <h2 class="product-text">$99 / mo</h2>
+              </div>
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <p>..</p>
+                <p>..</p>
+                <p>..</p>
+                <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+    
+              </div>
+            </div>
+          </div>
+
+          <div class="product-column col-lg-4 col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <h3>Labrador</h3>
+                  <h2 class="product-text">$49 / mo</h2>
+                </div>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <p>..</p>
+                  <p>..</p>
+                  <p>..</p>
+                  <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+                </div>
+              </div>
+          </div>
+
+          <div class="product-column col-lg-4 col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <h3>Labrador</h3>
+                  <h2 class="product-text">$49 / mo</h2>
+                </div>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <p>..</p>
+                  <p>..</p>
+                  <p>..</p>
+                  <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+                </div>
+              </div>
+          </div>
+
+          <div class="product-column col-lg-4">
+              <div class="card">
+                <div class="card-header">
+                  <h3>Mastiff</h3>
+                  <h2 class="product-text">$99 / mo</h2>
+                </div>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <p>..</p>
+                  <p>..</p>
+                  <p>..</p>
+                  <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+      
+                </div>
+              </div>
+          </div> -->
+
+      <div id="products-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-wrapper container-sm d-flex justify-content-around">
+              <div class="card" style="width: 25rem;">
+                <div class="card-header">
+                  <h3>8051 Trainer Kit</h3>
+                  <!-- <h2 class="product-text">$99 / mo</h2> -->
+                </div>
+                <img class="card-img-top" src="images/section/8051.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">8051 Microcontroller certification course used to develop an embedded system with the help of c programming for getting ideas about multi-objective and multi-discipline embedded systems. </p>
+                  <!-- <button class="btn btn-lg btn-block btn-dark white-sign-up-btn" type="button">Sign Up</button>  -->
+                </div>
+              </div>
+              <div class="card" style="width: 25rem;">
+                <div class="card-header">
+                  <h3>AVR Trainer Kit</h3>
+                  <!-- <h2 class="product-text">$99 / mo</h2> -->
+                </div>
+                <img class="card-img-top" src="images/section/avr.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">What is the basic of AVR?
+                    AVR is an 8-bit microcontroller appropriate to the family of RISC. In this architecture, the instruction set of the computer are not only less in number but also faster and simpler in operation.</p>
+                  <!-- <button class="btn btn-lg btn-block btn-dark white-sign-up-btn" type="button">Sign Up</button>  -->
+                </div>
+              </div>
+              <div class="card" style="width: 25rem;">
+                <div class="card-header">
+                  <h3>Arduino Trainer Kit</h3>
+                  <!-- <h2 class="product-text">$99 / mo</h2> -->
+                </div>
+                <img class="card-img-top" src="images/section/arduino.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Arduino training kits are aimed at improving Arduino skills by practical applications. In Arduino training kits category you can find sets which consist of materials to be used in Arduino based electronics or robotic projects.</p>
+                  <!-- <button class="btn btn-lg btn-block btn-dark white-sign-up-btn" type="button">Sign Up</button>  -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-wrapper container-sm d-flex justify-content-around">
+              <div class="card" style="width: 25rem;">
+                <div class="card-header">
+                  <h3>NodeMCU Trainer Kit</h3>
+                  <!-- <h2 class="product-text">$99 / mo</h2> -->
+                </div>
+                <img class="card-img-top" src="images/section/nodemcu.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">NodeMCU Development Kit/Board consists of an ESP8266 wifi chip. ESP8266 chip has GPIO pins, serial communication protocol, etc. features on it. ESP8266 is a low-cost Wi-Fi chip developed by Espressif Systems with TCP/IP protocol.</p>
+                  <!-- <button class="btn btn-lg btn-block btn-dark white-sign-up-btn" type="button">Sign Up</button>  -->
+                </div>
+              </div>
+              <div class="card" style="width: 25rem;">
+                <div class="card-header">
+                  <h3>PIC Trainer Kit</h3>
+                  <!-- <h2 class="product-text">$99 / mo</h2> -->
+                </div>
+                <img class="card-img-top" src="images/section/pic.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">PIC kit includes everything you need to learn about PIC microcontroller programming, including, comprehensive browser based tutorials, MPLAB X development software including XC8 C compiler, hardware boards and a PICKit4 programmer and debugger.</p>
+                  <!-- <button class="btn btn-lg btn-block btn-dark white-sign-up-btn" type="button">Sign Up</button>  -->
+                </div>
+              </div>
+              <div class="card" style="width: 25rem;">
+                <div class="card-header">
+                  <h3>ARM7 Trainer Kit</h3>
+                  <!-- <h2 class="product-text">$99 / mo</h2> -->
+                </div>
+                <img class="card-img-top" src="images/section/arm7.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">ARM Trainer Kit is proposed to smooth the progress of developing and debugging of various designs encompassing of High speed 32-bit Microcontrollers. User can easily engage in development in this platform, or use it as reference to application.</p>
+                   <!-- <button class="btn btn-lg btn-block btn-dark white-sign-up-btn" type="button">Sign Up</button>  -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card-wrapper container-sm d-flex justify-content-around">
+              <div class="card" style="width: 25rem;">
+                <div class="card-header">
+                  <h3>PLC Trainer Kit</h3>
+                  <!-- <h2 class="product-text">$99 / mo</h2> -->
+                </div>
+                <img class="card-img-top" src="images/section/plc.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">A Programmable Logic Controller – PLC, also known as programmable controller, is the name given to a type of computer commonly used in commercial and industrial control applications.</p>
+                  <!-- <button class="btn btn-lg btn-block btn-dark white-sign-up-btn" type="button">Sign Up</button>  -->
+                </div>
+              </div>
+              <div class="card" style="width: 25rem;">
+                <div class="card-header">
+                  <h3>DCS Trainer Kit</h3>
+                  <!-- <h2 class="product-text">$99 / mo</h2> -->
+                </div>
+                <img class="card-img-top" src="images/section/dcs.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">The distributed control system (DCS) provides the functionalities users need to improve performance while eliminating complexity and remaining a robust, scalable and user friendly control solution.</p>
+                  <!-- <button class="btn btn-lg btn-block btn-dark white-sign-up-btn" type="button">Sign Up</button>  -->
+                </div>
+              </div>
+              <div class="card" style="width: 25rem;">
+                <div class="card-header">
+                  <h3>Raspberry Pi Trainer Kit</h3>
+                  <!-- <h2 class="product-text">$99 / mo</h2> -->
+                </div>
+                <img class="card-img-top" src="images/section/raspberry.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Raspberry Pi 3B / Raspberry Pi 4B (with SD Card and pre-installed Raspbian OS), Arduino Nano and ESP-01; and a variety of sensors and actuators like Buzzer, LED, RGB LED, Relay, Ultrasonic sensor, Light Dependent Resistor (LDR)</p>
+                  <!-- <button class="btn btn-lg btn-block btn-dark white-sign-up-btn" type="button">Sign Up</button>  -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#products-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#products-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+</section>
+
+  
+  
+  <section id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000" data-pause="hover">
+          <div class="carousel-inner testimonial-carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <h2 class="testimonial-text">
+                  The amazing help I received to enhance automation skill and knowledge convinced me of the excellency of CDIAC.
+              </h2>
+              <img class="testimonial-image" src="images/testimonial-shailesh.jpg" alt="First slide">
+              <em>Shailesh Sankdasariya</em>
+            </div>
+            <div class="carousel-item container-fluid">
+              <h2 class="testimonial-text">
+                  This is excellent center to learn PLC, HMI & industrial automation. Very good experience. Faculty teaches very well.
+              </h2>
+              <img class="testimonial-image" src="images/testimonial-nildeep.jpg" alt="Second slide">
+              <em>Priyank Ramoliya</em>
+            </div>
+          </div>
+          <button class="carousel-control-prev color-carousel-btn" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next color-carousel-btn" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          </a>
+
+      </div>
+  </section>
+
+    <section id="press">
+        <img src="images/partner-1.png" alt="pk-logo" class="press-logo">
+        <img src="images/partner-2.svg" alt="abb-logo" class="press-logo">
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="white-section" id="footer">
+      <a href="https://www.facebook.com/cdiacssasit/"><i class="icon fa-brands fa-facebook-f"></i></a>
+      <a href="tel:097275 56108"><i class="icon fa-solid fa-phone"></i></a>
+      <!-- <i class="icon fa-brands fa-instagram"></i> -->
+      <a href="mailto:cdiacsurat@gmail.com"><i class="icon fa-solid fa-envelope"></i></a>
+      <p>© Copyrights 2023 by CDIAC. Website Developed by Deep Mangroliya</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

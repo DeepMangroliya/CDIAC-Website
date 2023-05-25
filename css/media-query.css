@@ -1,0 +1,348 @@
+/* index page  */
+
+@media (max-width:1899px) {
+    .navigate {
+        padding-left: 30px;
+
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.4rem;
+        padding-left: 0.4rem;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar-brand {
+        font-size: 26px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    
+    .apply-text {
+        bottom: 130px;
+    }
+
+    .mt-30 {
+        margin-top: 30px
+    }
+
+}
+
+@media (max-width:1399px) {
+    .navbar-brand {
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .nav-link-main {
+        font-size: 18px;
+    }
+
+    /* ===  about us  === */
+
+   
+}
+
+@media (max-width:1199px) {
+    .navigate {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbar-brand {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .nav-link-main {
+        font-size: 14px;
+    }
+
+    .apply-text {
+        bottom: 100px;
+        font-size: 30px;
+    }
+
+    .banner-slider .carousel-inner .carousel-item img {
+        height: 550px;
+    }
+
+    .mt-30 {
+        margin-top: 48px;
+    }
+
+
+}
+
+@media (max-width:991px) {
+    .banner-slider .carousel-inner .carousel-item img {
+        height: 450px;
+    }
+
+    .apply-text {
+        bottom: 84px;
+        font-size: 26px;
+    }
+
+    .mt-30 {
+        margin-top: 64px;
+    }
+
+    .testimonial-text {
+        font-size: 34px;
+        margin-top: 30px;
+    }
+
+
+    /* === contat us ===  */
+
+    .form-right {
+        flex-direction: column;
+    }
+
+    .communication-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-left input,
+    .form-left textarea {
+        width: 95%;
+        margin: 10px 10px 10px 30px;
+    }
+
+    /* === 8051 page ===  */
+
+   #p8051 .showcase-text {
+        top: 19%;
+        left: 12%;
+        width: 25%;
+    }
+
+    .course-heading {
+        padding: 7% 5% 7% 5%;
+    }
+
+    /* === courses page  === */
+
+    #courses .showcase-text {
+        top: 38%;
+        left: 10%;
+        width: 41%;
+    }
+
+
+    /* equipments  */
+
+    #equipments .showcase-text {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        width: 47%;
+    }
+}
+
+@media (max-width:767px) {
+    .banner-slider .carousel-inner .carousel-item img {
+        height: 400px;
+    }
+
+    .apply-text {
+        bottom: 66px;
+        font-size: 20px;
+    }
+
+    .mt-30 {
+        margin-top: 79px;
+    }
+
+    .section-heading {
+        font-size: 2.5rem;
+    }
+
+    .testimonial-text {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    /* === 8051 page ===  */
+
+     .showcase-heading {
+        font-size: 50px;
+    }
+
+     .showcase-innertext {
+        font-size: 14px;
+    }
+
+    #p8051 .showcase-text {
+        top: 18%;
+        left: 10%;
+        width: 27%;
+    }
+
+    .course-heading p {
+        text-align: justify;
+        padding: 2% 5%;
+    }
+
+
+    /* courses page  */
+
+   #courses .showcase-text {
+        top: 21%;
+        left: 6%;
+        width: 48%;
+    }
+    .course-row {
+        width: 70%;
+    }
+
+    /* equipments  */
+
+    #equipments .showcase-text {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        width: 52%;
+    }
+
+    #equipments .equipment-row {
+        width: 75%;
+    }
+}
+
+@media (max-width:575px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .brand-logo {
+        width: 45px;
+        margin-right: 0;
+    }
+
+    .navbar-brand {
+        font-size: 15px;
+        margin: 10px 0 10px 1 0px;
+    }
+
+    .banner-slider .carousel-inner .carousel-item img {
+        height: 300px;
+    }
+
+    .register {
+        position: relative;
+    }
+
+    .register .apply-img {
+        top: -19px;
+        left: 0;
+        position: absolute;
+    }
+
+    .apply-text {
+        bottom: 11px;
+        font-size: 16px;
+    }
+
+    .apply-img {
+        height: 100px;
+    }
+
+    .mt-30 {
+        margin-top: 0;
+    }
+
+    .btn-curve {
+        bottom: 5px;
+    }
+
+    .event-heading {
+        margin-top: 35px;
+    }
+
+    .testimonials .scarousel-inner .carousel-item img {
+        height: 50px;
+    }
+
+    .testimonials .carousel-inner {
+        height: 450px;
+    }
+
+
+    /* === contat us ===  */
+
+    #get-in-touch .section-heading {
+        font-size: 1.75rem;
+    }
+
+    .form-left input,
+    .form-left textarea {
+        width: 70%;
+        margin: 10px 0px 10px 30px;
+    }
+
+
+    /* === 8051 page ===  */
+
+    .showcase-heading {
+        font-size: 26px;
+    }
+
+    #p8051 .showcase-text {
+        top: 23%;
+        left: 3%;
+        width: 58%;
+    }
+
+    .program-module-content h6 {
+        padding: 3% 0%;
+        font-size: 1rem;
+    }
+    .event-text{
+        padding: 0 15px;
+    }
+
+    /* courses  */
+
+    #courses .showcase-text {
+        top: 21%;
+        left: 3%;
+        width: 70%;
+    }
+    .course-row {
+        width: 95%;
+    }
+
+    /* equipments  */
+
+    #equipments .equipment-row {
+        width: 95%;
+    }
+
+    #equipment-showcase {
+        width: 100%;
+        height: 28rem;
+    }
+
+}
+
+    @media (max-width:320px) {
+        .navbar-brand {
+            /* margin: 0; */
+            font-size: 11px;
+        }
+
+
+        /* === about us  === */
+
+        .about-us-text{
+            text-align: revert;
+        }
+    }
